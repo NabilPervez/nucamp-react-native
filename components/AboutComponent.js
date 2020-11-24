@@ -30,7 +30,7 @@ class About extends Component {
         return(
             <ScrollView>
                 <Mission />
-                <Card title="Our Mission">
+                <Card title="Community Partners">
                     <FlatList
                     data={this.state.partners}
                     renderItem={renderPartner}
