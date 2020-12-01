@@ -41,8 +41,6 @@ class Reservation extends Component {
         });
     }
 
-    
-
     render() {
         return (
             <ScrollView>
